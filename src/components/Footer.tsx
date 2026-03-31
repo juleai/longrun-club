@@ -17,7 +17,7 @@ export function Footer() {
           <h3 className="text-[2rem] font-bold tracking-tight mb-3 bg-gradient-to-r from-[#FAFAF8] to-[#3B82F6] bg-clip-text text-transparent">
             Join The Movement
           </h3>
-          <p className="text-[#6b7280] font-light mb-8 text-sm">
+          <p className="text-[#9ca3af] font-light mb-8 text-sm">
             Get exclusive access to new drops, athlete stories, and performance tips.
           </p>
           <form className="flex gap-3 max-w-md mx-auto" onSubmit={e => e.preventDefault()}>
@@ -41,14 +41,14 @@ export function Footer() {
           <div className="lg:col-span-1 flex flex-col gap-5">
             <Link href="/" className="flex items-center gap-2.5">
               <Logo className="w-10 h-10" />
-              <span className="font-['Syne'] font-bold text-xl tracking-tight">LONG RUN</span>
+              <span className="font-[var(--font-syne)] font-bold text-xl tracking-tight">LONG RUN</span>
             </Link>
-            <p className="text-[#6b7280] text-sm font-light leading-relaxed">
+            <p className="text-[#9ca3af] text-sm font-light leading-relaxed">
               Performance apparel designed for athletes who demand excellence. Built to last, engineered to perform.
             </p>
             <div className="flex gap-3 mt-1">
               {["IG", "TK", "YT", "ST"].map(s => (
-                <a key={s} href="#" className="w-9 h-9 rounded-full bg-white/5 flex items-center justify-center text-[#6b7280] text-xs font-medium hover:text-[#3B82F6] hover:-translate-y-1 transition-all duration-300">
+                <a key={s} href="#" className="w-9 h-9 rounded-full bg-white/5 flex items-center justify-center text-[#9ca3af] text-xs font-medium hover:text-[#3B82F6] hover:-translate-y-1 transition-all duration-300">
                   {s}
                 </a>
               ))}
@@ -58,11 +58,11 @@ export function Footer() {
           {/* Links */}
           {[{ title: "Shop", links: shopLinks }, { title: "Help", links: helpLinks }, { title: "About", links: aboutLinks }].map(col => (
             <div key={col.title}>
-              <h4 className="font-['Syne'] font-semibold text-sm tracking-wide mb-6">{col.title}</h4>
+              <h4 className="font-[var(--font-syne)] font-semibold text-sm tracking-wide mb-6">{col.title}</h4>
               <ul className="flex flex-col gap-3">
                 {col.links.map(link => (
                   <li key={link}>
-                    <a href="#" className="text-[#6b7280] text-sm font-light hover:text-[#3B82F6] hover:translate-x-1 transition-all duration-300 inline-block">
+                    <a href="#" className="text-[#9ca3af] text-sm font-light hover:text-[#3B82F6] hover:translate-x-1 transition-all duration-300 inline-block">
                       {link}
                     </a>
                   </li>
@@ -73,7 +73,7 @@ export function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-6 pt-8 border-t border-white/10 text-[#6b7280] text-xs font-light">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-6 pt-8 border-t border-white/10 text-[#9ca3af] text-xs font-light">
           <p>© 2026 Long Run. All rights reserved.</p>
           <div className="flex gap-6">
             {["Privacy Policy", "Terms of Service", "Accessibility"].map(l => (

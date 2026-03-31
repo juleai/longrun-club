@@ -31,7 +31,7 @@ export function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2.5 group">
           <Logo className="w-10 h-10 drop-shadow-sm group-hover:-translate-y-0.5 transition-transform duration-300" />
-          <span className="font-['Syne'] font-bold text-[1.35rem] tracking-tight text-[#111827]">
+          <span className="font-[var(--font-syne)] font-bold text-[1.35rem] tracking-tight text-[#111827]">
             LONG RUN
           </span>
         </Link>
