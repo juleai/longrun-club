@@ -32,11 +32,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </CartProvider>
         <Script
-          src="https://assets.jule.ai/preview/widget.js"
+          src="https://assets.jule.ai/preview/widget.js?w=desktop"
           strategy="afterInteractive"
           data-workspace-id="72bf2a6d-633a-4b8c-b99c-9f5918f6ddea"
           data-project-id="a32c9e71-8ff5-4ad1-bc41-e8aa2203448a"
-          data-container-selector="#footer-widget"
+          data-container-selector="#footer-widget-desktop"
+          data-debug="true"
+        />
+         <Script
+          src="https://assets.jule.ai/preview/widget.js?w=mobile"
+          strategy="afterInteractive"
+          data-workspace-id="72bf2a6d-633a-4b8c-b99c-9f5918f6ddea"
+          data-project-id="4a940d40-cc3c-4941-bc57-89c50c58819e"
+          data-container-selector="#footer-widget-mobile"
           data-debug="true"
         />
       </body>

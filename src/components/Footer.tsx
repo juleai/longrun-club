@@ -19,7 +19,8 @@ export function Footer() {
           <p className="text-[#9ca3af] font-light mb-8 text-sm">
             Get exclusive access to new drops, athlete stories, and performance tips.
           </p>
-           <div className="embed-spot" id="footer-widget"></div>
+           <div className="embed-spot" id="footer-widget-desktop"></div>
+           <div className="embed-spot" id="footer-widget-mobile"></div>
         </div>
 
         {/* Grid */}
