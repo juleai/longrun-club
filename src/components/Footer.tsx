@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import { Logo } from "./Logo";
 
@@ -13,26 +12,15 @@ export function Footer() {
 
       <div className="max-w-[1600px] mx-auto px-8 sm:px-12 pt-20 pb-8">
         {/* Newsletter */}
-        <div className="text-center max-w-xl mx-auto mb-20 pb-16 border-b border-white/10">
-          <h3 className="text-[2rem] font-bold tracking-tight mb-3 bg-gradient-to-r from-[#FAFAF8] to-[#3B82F6] bg-clip-text text-transparent">
+        <div className=" max-w-xl mx-auto mb-20 pb-16 border-b border-white/10">
+          <h3 className="text-[2rem] text-center font-bold tracking-tight mb-3 bg-gradient-to-r from-[#FAFAF8] to-[#3B82F6] bg-clip-text text-transparent">
             Join The Movement
           </h3>
           <p className="text-[#9ca3af] font-light mb-8 text-sm">
             Get exclusive access to new drops, athlete stories, and performance tips.
           </p>
-          <form className="flex gap-3 max-w-md mx-auto" onSubmit={e => e.preventDefault()}>
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-5 py-3 rounded-lg bg-white/5 border border-white/10 text-[#FAFAF8] placeholder-[#6b7280] text-sm outline-none focus:border-[#3B82F6] focus:ring-2 focus:ring-[#3B82F6]/15 transition-all"
-            />
-            <button
-              type="submit"
-              className="px-6 py-3 rounded-lg bg-[#3B82F6] text-[#111827] font-semibold text-sm hover:-translate-y-0.5 hover:shadow-lg hover:shadow-[#3B82F6]/25 transition-all duration-300"
-            >
-              Subscribe
-            </button>
-          </form>
+           <div className="embed-spot" id="footer-widget-desktop"></div>
+           <div className="embed-spot" id="footer-widget-mobile"></div>
         </div>
 
         {/* Grid */}
