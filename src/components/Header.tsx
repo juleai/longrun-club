@@ -8,7 +8,7 @@ const navLinks = [
   { label: "Women", href: "/women" },
   { label: "Men", href: "/men" },
   { label: "What's New", href: "/new" },
-  { label: "Gear", href: "/gear" },
+  { label: "Shop All", href: "/shop" },
   { label: "Community", href: "/community" },
 ];
 

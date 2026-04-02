@@ -35,10 +35,7 @@ export const products: Product[] = [
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     images: [
-      "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&q=80",
-      "https://images.unsplash.com/photo-1518459031867-a89b944bffe4?w=800&q=80",
-      "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=800&q=80",
-      "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?w=800&q=80",
+      "/images/products/velocity-running-short.png",
     ],
     tag: "Best Seller",
   },
@@ -60,8 +57,7 @@ export const products: Product[] = [
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     images: [
-      "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=800&q=80",
-      "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=800&q=80",
+      "/images/products/aeroflow-performance-tee.png",
     ],
   },
   {
@@ -82,8 +78,7 @@ export const products: Product[] = [
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     images: [
-      "https://images.unsplash.com/photo-1551489186-cf8726f514f8?w=800&q=80",
-      "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=800&q=80",
+      "/images/products/marathon-jacket.png",
     ],
     tag: "New",
   },
@@ -105,7 +100,7 @@ export const products: Product[] = [
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     images: [
-      "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&q=80",
+      "/images/products/stride-running-tank.png",
     ],
   },
   {
@@ -126,7 +121,7 @@ export const products: Product[] = [
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     images: [
-      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800&q=80",
+      "/images/products/endurafit-tights.png",
     ],
     tag: "Best Seller",
   },
@@ -147,7 +142,7 @@ export const products: Product[] = [
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     images: [
-      "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=800&q=80",
+      "/images/products/tempo-sports-bra.png",
     ],
   },
   {
@@ -167,7 +162,7 @@ export const products: Product[] = [
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     images: [
-      "https://images.unsplash.com/photo-1620188526357-ff08e03da266?w=800&q=80",
+      "/images/products/trailblaze-hoodie.png",
     ],
   },
   {
@@ -188,7 +183,7 @@ export const products: Product[] = [
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: [
-      "https://images.unsplash.com/photo-1519311965067-36d3e5f33d39?w=800&q=80",
+      "/images/products/pacesetter-shorts.png",
     ],
   },
   {
@@ -208,7 +203,7 @@ export const products: Product[] = [
     ],
     sizes: ["S", "M", "L", "XL"],
     images: [
-      "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?w=800&q=80",
+      "/images/products/ultraglide-vest.png",
     ],
     tag: "New",
   },
@@ -230,7 +225,7 @@ export const products: Product[] = [
     ],
     sizes: ["One Size"],
     images: [
-      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800&q=80",
+      "/images/products/pacesetter-cap.png",
     ],
   },
 ];

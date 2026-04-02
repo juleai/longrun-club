@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Syne, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { CartProvider } from "@/context/CartContext";
-import Script from "next/script";
+import { JuleWidget } from "@/components/JuleWidget";
 
 const syne = Syne({
   subsets: ["latin"],
@@ -21,7 +21,26 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: "Long Run — Performance Running Apparel",
-  description: "Built for the long run. Performance apparel engineered for athletes who demand excellence.",
+  description: "Built for the long run. Performance apparel engineered for athletes who demand excellence. Shop running shorts, tees, jackets, and accessories.",
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    apple: "/favicon.png",
+  },
+  openGraph: {
+    title: "Long Run — Performance Running Apparel",
+    description: "Performance apparel engineered for athletes who demand excellence. Every stitch, every fiber — designed to go the distance.",
+    siteName: "Long Run",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Long Run — Performance Running Apparel",
+    description: "Performance apparel engineered for athletes who demand excellence.",
+  },
+  keywords: ["running apparel", "performance wear", "athletic clothing", "running shorts", "running jackets", "Long Run"],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -31,22 +50,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <CartProvider>
           {children}
         </CartProvider>
-        <Script
-          src="https://assets.jule.ai/preview/widget.js?w=desktop"
-          strategy="afterInteractive"
-          data-workspace-id="72bf2a6d-633a-4b8c-b99c-9f5918f6ddea"
-          data-project-id="a32c9e71-8ff5-4ad1-bc41-e8aa2203448a"
-          data-container-selector="#footer-widget-desktop"
-          data-debug="true"
-        />
-         <Script
-          src="https://assets.jule.ai/preview/widget.js?w=mobile"
-          strategy="afterInteractive"
-          data-workspace-id="72bf2a6d-633a-4b8c-b99c-9f5918f6ddea"
-          data-project-id="4a940d40-cc3c-4941-bc57-89c50c58819e"
-          data-container-selector="#footer-widget-mobile"
-          data-debug="true"
-        />
+        <JuleWidget />
       </body>
     </html>
   );

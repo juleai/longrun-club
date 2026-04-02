@@ -16,7 +16,7 @@ export function Footer() {
           <h3 className="text-[2rem] text-center font-bold tracking-tight mb-3 bg-gradient-to-r from-[#FAFAF8] to-[#3B82F6] bg-clip-text text-transparent">
             Join The Movement
           </h3>
-          <p className="text-[#9ca3af] font-light mb-8 text-sm">
+          <p className="text-[#9ca3af] font-light mb-8 text-sm text-center">
             Get exclusive access to new drops, athlete stories, and performance tips.
           </p>
            <div className="embed-spot" id="footer-widget-desktop"></div>

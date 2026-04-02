@@ -129,19 +129,6 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* NEWSLETTER */}
-        <section className="px-8 sm:px-12 lg:px-20 py-20 text-center border-t border-black/8">
-          <h2 className="text-[2.2rem] font-bold tracking-[-1.5px] mb-3">JOIN THE MOVEMENT</h2>
-          <p className="text-[#6b7280] font-light mb-8 max-w-sm mx-auto text-sm">
-            Get exclusive access to new drops, athlete stories, and performance tips.
-          </p>
-          <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto" onSubmit={e => e.preventDefault()}>
-            <input type="email" placeholder="Enter your email" className="flex-1 px-5 py-3.5 rounded-lg border border-black/15 bg-white text-[#111827] placeholder-[#6b7280] text-sm outline-none focus:border-[#3B82F6] focus:ring-2 focus:ring-[#3B82F6]/15 transition-all" />
-            <button type="submit" className="px-6 py-3.5 rounded-lg bg-[#3B82F6] text-white font-medium text-sm hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300">
-              Subscribe
-            </button>
-          </form>
-        </section>
       </main>
       <Footer />
     </>
